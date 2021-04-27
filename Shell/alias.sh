@@ -32,12 +32,16 @@ alias py='python'
 
 #Git
 
-alias git_master='git checkout master'
-alias git_dev='git checkout dev'
-alias git_checkout='git checkout -'
-alias git_push='git push'
-alias git_fetch='git fetch'
-alias git_pull='git pull'
-alias git_rem='git pull'
-
-
+alias master='git checkout master'
+alias dev='git checkout dev'
+alias checkout='git checkout'
+alias push='git push'
+alias fetch='git fetch'
+alias pull='git pull'
+alias add='git add'
+alias commit='git commit -m """'
+alias clone='git clone '
+alias remotes='git remote -v'
+alias mouv_remote='git remote rm'
+alias add_remote='git remote add origin'
+alias gbr='git branch'
